@@ -2,7 +2,7 @@
 
 .cards{
     margin: 50px auto 70px;
-    display: grid; 
+    display: grid;
     max-width: 880px;
     grid-template-columns: repeat(auto-fill, 282px);
     grid-template-rows: 361px;
