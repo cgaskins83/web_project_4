@@ -4,13 +4,13 @@
 
 * Figma
 * Images
+* JavaScript - EventListeners and forEach loop
 
-**Figma**
+**About this Project**
+
+This project uses JavaScript to create a popup that can edit the name and gig of a card.  Changes are saved and displayed on the page.  The user is also able to close the popup by clicking on X. 
+
 
 * [Link to the project in Figma](https://www.figma.com/file/mUgu8OSHWE0M6p6vfwmdu9/Sprint-4-Around-The-U.S.-desktop-mobile?node-id=0%3A1)
 
-**Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Have fun with JavaScript!
