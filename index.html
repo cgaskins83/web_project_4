@@ -1,73 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Around The U.S.</title>
-    <link rel="stylesheet" href="./pages/index.css">
-</head>
-<body class="page">
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
     <header class="header">
-        <img src="./images/logowhite.svg" alt="logo" class="logo">
-    </header> 
-    <main class="content"> 
+      <img src="./images/logowhite.svg" alt="logo" class="logo" />
+    </header>
+    <main class="content">
       <section class="profile">
-          <img class="profile__image" src="./images/profileimage.jpg" alt="headshot">
-          <div class="profile__info">
-              <h1 class="profile__name">Jacques Cousteau</h1>
-              <button class="profile__edit-button" aria-label="edit"></button>
-              <p class="profile__gig">Explorer</p>  
-          </div>
-          <button class="profile__add-button"></button>     
+        <img
+          class="profile__image"
+          src="./images/profileimage.jpg"
+          alt="headshot"
+        />
+        <div class="profile__info">
+          <h1 class="profile__name">Jacques Cousteau</h1>
+          <button
+            class="profile__edit-button"
+            type="button"
+            aria-label="edit"
+          ></button>
+          <p class="profile__gig">Explorer</p>
+          
+        </div>
+        <button
+          class="profile__add-button"
+          type="button"
+          aria-label="add"
+        ></button>
       </section>
       <section class="cards">
-          <div class="card">
-            <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="image" class="card__image">
-            <h2 class="card__title">Yosemite Valley</h2>
-            <button class="card__like" aria-label="like-button"></button>
+        <div class="card">
+          <img
+            src="./images/kirill-pershin-1088404-unsplash.jpg"
+            alt="image"
+            class="card__image"
+          />
+          <h2 class="card__title">Yosemite Valley</h2>
+          <button
+            class="card__like"
+            type="button"
+            aria-label="like-button"
+          ></button>
         </div>
         <div class="card">
-            <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="image" class="card__image">
-            <h2 class="card__title">Lake Louise</h2>
-            <button class="card__like" aria-label="like-button"></button>
+          <img
+            src="./images/kirill-pershin-1404681-unsplash.jpg"
+            alt="image"
+            class="card__image"
+          />
+          <h2 class="card__title">Lake Louise</h2>
+          <button
+            class="card__like"
+            type="button"
+            aria-label="like-button"
+          ></button>
         </div>
         <div class="card">
-            <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="image" class="card__image">
-            <h2 class="card__title">Bald Mountains</h2>
-            <button class="card__like" aria-label="like-button"></button>
+          <img
+            src="./images/kirill-pershin-1556355-unsplash.jpg"
+            alt="image"
+            class="card__image"
+          />
+          <h2 class="card__title">Bald Mountains</h2>
+          <button
+            class="card__like"
+            type="button"
+            aria-label="like-button"
+          ></button>
         </div>
         <div class="card">
-            <img src="./images/kirill-pershin-1404682-unsplash.jpg" alt="image" class="card__image">
-            <h2 class="card__title">Latemar</h2>
-            <button class="card__like" aria-label="like-button"></button>
+          <img
+            src="./images/kirill-pershin-1404682-unsplash.jpg"
+            alt="image"
+            class="card__image"
+          />
+          <h2 class="card__title">Latemar</h2>
+          <button
+            class="card__like"
+            type="button"
+            aria-label="like-button"
+          ></button>
         </div>
         <div class="card">
-            <img src="./images/kirill-pershin-1556356-unsplash.jpg" alt="image" class="card__image">
-            <h2 class="card__title">Vanoise National</h2>
-            <button class="card__like" aria-label="like-button"></button>
+          <img
+            src="./images/kirill-pershin-1556356-unsplash.jpg"
+            alt="image"
+            class="card__image"
+          />
+          <h2 class="card__title">Vanoise Nation...</h2>
+          <button
+            class="card__like"
+            type="button"
+            aria-label="like-button"
+          ></button>
         </div>
         <div class="card">
-            <img src="./images/kirill-pershin-1088405-unsplash.jpg" alt="image" class="card__image">
-            <h2 class="card__title">Lago di Braies</h2>
-            <button class="card__like" aria-label="like-button"></button>
+          <img
+            src="./images/kirill-pershin-1088405-unsplash.jpg"
+            alt="image"
+            class="card__image"
+          />
+          <h2 class="card__title">Lago di Braies</h2>
+          <button
+            class="card__like"
+            type="button"
+            aria-label="like-button"
+          ></button>
         </div>
       </section>
     </main>
     <footer class="footer">
-        <p class="footer__text"> © 2020 Around The U.S.</p>
+      <p class="footer__text">© 2020 Around The U.S.</p>
     </footer>
     <div class="popup">
-        <div class="popup__container">
-          <form action="#" class="popup__form">
-              <h2 class="popup__title">Edit profile</h2>
-              <input type="#" name="name" class="popup__name" placeholder="Name" value="Jacques Cousteau">
-              <input type="#" name="aboutme" class="popup__about" placeholder="About me" value="Explorer"> 
-              <button class="popup__save" type="submit">Save</button>
-              <button class="popup__close" type="reset"></button>
-          </form>
-        </div>
-        
+      <div class="popup__container">
+        <form action="#" name="edit" class="popup__form">
+          <h2 class="popup__title">Edit profile</h2>
+          <input
+            type="text"
+            name="name"
+            class="popup__input popup__input_type_name"
+            placeholder="Name"
+          />
+          <input
+            type="text"
+            name="aboutme"
+            class="popup__input popup__input_type_about"
+            placeholder="About me"
+          />
+          <button class="popup__save" type="submit" aria-label="save">
+            Save
+          </button>
+        </form>
+        <button class="popup__close" type="button" aria-label="close"></button>
+      </div>
     </div>
-    <script src="script.js"></script>
-</body>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>

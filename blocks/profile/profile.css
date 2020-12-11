@@ -1,23 +1,20 @@
-@import url('../profile/__edit-button/profile__edit-button.css');
-@import url('../profile/__gig/profile__gig.css');
-@import url('../profile/__image/profile__image.css');
-@import url('../profile/__info/profile__info.css');
-@import url('../profile/__name/profile__name.css');
-@import url('./__add-button/profile__add-button.css');
+@import url("../profile/__edit-button/profile__edit-button.css");
+@import url("../profile/__gig/profile__gig.css");
+@import url("../profile/__image/profile__image.css");
+@import url("../profile/__info/profile__info.css");
+@import url("../profile/__name/profile__name.css");
+@import url("./__add-button/profile__add-button.css");
 
-.profile{
-    display: flex;
-    max-width: 880px;
-    margin-left: 190px;
-    margin-bottom: 51px;
+.profile {
+  display: flex;
+  max-width: 880px;
+  margin: auto;
 }
 
- @media screen and (max-width: 320px){
-        .profile{
-            text-align: center;
-            max-width: 282px;
-            margin-left: 19px;
-            align-items: center;
-            display: block;
-        }
-    }
+@media screen and (max-width: 320px) {
+  .profile {
+    text-align: center;
+    max-width: 282px;
+    display: block;
+  }
+}

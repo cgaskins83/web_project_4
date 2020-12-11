@@ -1,12 +1,11 @@
-@import url('../card/__image/card__image.css');
-@import url('../card/__like/card__like.css');
-@import url('../card/__liked/card__liked.css');
-@import url('../card/__title/card__title.css');
+@import url("../card/__image/card__image.css");
+@import url("../card/__like/card__like.css");
+@import url("../card/__title/card__title.css");
+@import url("../card/__like/_color/card__like_color_black.css");
 
-.card{
-    width: 282px;
-    height: 362px;
-    background-color: white;
-    position: relative;
-    border-radius: 10px;
+.card {
+  width: 282px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
 }

@@ -6,6 +6,10 @@
 * Images
 * JavaScript - EventListeners and forEach loop
 
+Technlogies Used
+
+*Figma *VS CODE *TinyPng
+
 **About this Project**
 
 This project uses JavaScript to create a popup that can edit the name and gig of a card.  Changes are saved and displayed on the page.  The user is also able to close the popup by clicking on X. 

@@ -1,23 +1,21 @@
-.footer{
-      width: 318px;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 21.78px;
-      margin-left: 200px;
-      color: #545454;
+.footer {
+  width: 318px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  margin-left: 200px;
+  color: #545454;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: 282px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-left: 19px;
+    margin-top: 48px;
+    margin-bottom: 19px;
   }
-  
-
-
-
-    @media screen and (max-width: 320px){
-      .footer{
-         width: 282px;
-         margin: 0;
-         font-size: 14px;
-         line-height: 16.94px;
-         margin-left: 19px;
-         margin-top: 48px;
-         margin-bottom: 19px;
-      }
-  }
+}

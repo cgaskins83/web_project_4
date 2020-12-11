@@ -1,6 +1,6 @@
-.card__image{
-    width: 282px;
-    background-color: white;
-    border-radius: 10px 10px 0 0;
-    cursor: pointer;  
+.card__image {
+  width: 282px;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
 }

@@ -1,7 +1,16 @@
-.page{
-    background-color: black;
-    margin: 0 auto;
-    padding: 0;
-    font-family: 'Inter', 'Arial', sans-serif;
-    color: #FFFFFF;
+.page {
+  width: 1280px;
+  background-color: black;
+  margin: 0 auto;
+  font-family: "Inter", "Arial", sans-serif;
+  color: #ffffff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialised;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    width: 320px;
+  }
 }
