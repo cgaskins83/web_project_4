@@ -30,7 +30,7 @@ editButton.addEventListener('click', editButtonOpen);
 
 
 //close the popup using x btn 
-closeButton.addEventListener('click', editButtonOpen);
+closeButton.addEventListener('click', editButtonClose);
 
 function handleFormSubmit(e){
     e.preventDefault();
