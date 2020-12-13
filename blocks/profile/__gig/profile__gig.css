@@ -3,13 +3,14 @@
   font-weight: 400;
   font-size: 18px;
   width: 415px;
-  line-height: 21.78px;
+  line-height: 22px;
+  padding-bottom: 6px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 880px) {
   .profile__gig {
     text-align: center;
     margin-bottom: 36px;

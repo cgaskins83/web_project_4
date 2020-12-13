@@ -2,10 +2,13 @@
 @import url("../card/__like/card__like.css");
 @import url("../card/__title/card__title.css");
 @import url("../card/__like/_color/card__like_color_black.css");
+@import url("../card/__text/card__text.css");
 
 .card {
-  width: 282px;
-  background-color: white;
   position: relative;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
+  background-color: white;
+  
 }

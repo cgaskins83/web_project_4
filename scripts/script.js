@@ -19,15 +19,18 @@ function editButtonOpen() {
 }
  
 function togglePopupWindow() {
-        popup.classList.toggle('popup_display_open');   
+        popup.classList.toggle('popup_open');   
+}
+
+function editButtonClose() {
+    popup.classList.remove('popup_open');
 }
 
 editButton.addEventListener('click', editButtonOpen);
 
+
 //close the popup using x btn 
-closeButton.addEventListener('click', function(){
-    popup.classList.remove('popup_display_open')
-})
+closeButton.addEventListener('click', editButtonOpen);
 
 function handleFormSubmit(e){
     e.preventDefault();

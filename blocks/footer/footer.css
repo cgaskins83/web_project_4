@@ -1,14 +1,14 @@
 .footer {
-  width: 318px;
+  max-width: 880px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.78px;
-  margin-left: 200px;
+  margin: 66px auto 60px;
   color: #545454;
   flex-shrink: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 880px) {
   .footer {
     width: 282px;
     margin: 0;
